@@ -4,6 +4,7 @@ import NavbarComponent from "./components/navbar/navbarComponent";
 import CarousalComponent from "./components/carousal/CarousalComponent";
 import TitleComponent from "./components/title/titleComponent";
 import ScrollComponent from "./components/scroll/ScrollComponent";
+import AboutMeComponent from "./pages/About/AboutComponent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <NavbarComponent />
         <TitleComponent />
         <CarousalComponent />
+        <AboutMeComponent />
     </>
   );
 }

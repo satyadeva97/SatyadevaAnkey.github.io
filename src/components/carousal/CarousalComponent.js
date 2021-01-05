@@ -9,7 +9,7 @@ import ScrollComponent from "../scroll/ScrollComponent";
 const CarousalComponent = () => {
     return (
         <div id="home">
-            <Carousel controls={false} indicators interval={1000} pauseOnHover={false}>
+            <Carousel controls={false} indicators interval={1000} pauseOnHover={true}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 custom-img"
