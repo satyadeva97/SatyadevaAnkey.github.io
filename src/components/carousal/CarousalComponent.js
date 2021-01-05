@@ -4,11 +4,12 @@ import "./Carousal.css"
 import slide1 from "../../assets/img/carousal/slide1.webp";
 import slide2 from "../../assets/img/carousal/slide2.webp";
 import slide3 from "../../assets/img/carousal/slide3.webp";
+import ScrollComponent from "../scroll/ScrollComponent";
 
 const CarousalComponent = () => {
     return (
         <div id="home">
-            <Carousel controls={false} indicators interval={25} pauseOnHover={false}>
+            <Carousel controls={false} indicators interval={1000} pauseOnHover={false}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 custom-img"
@@ -33,6 +34,7 @@ const CarousalComponent = () => {
 
                 </Carousel.Item>
             </Carousel>
+            <ScrollComponent />
         </div>
     )
 }
