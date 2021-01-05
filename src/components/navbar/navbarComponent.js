@@ -10,7 +10,7 @@ const NavbarComponent = () => {
             <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark"
                     className="animate-navbar nav-theme justify-content-between">
                 <Navbar.Brand href="#home">
-                    <img classNmae="logo" src={logo}/>
+                    <img className="logo" src={logo}/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
